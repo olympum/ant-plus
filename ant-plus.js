@@ -5,6 +5,8 @@ var SSD = require('./build/stride-speed-distance-sensors');
 var SC = require('./build/speed-cadence-sensors');
 
 module.exports = {
+	Constants: Ant.Constants,
+	Messages: Ant.Messages,
 	GarminStick2: Ant.GarminStick2,
 	GarminStick3: Ant.GarminStick3,
 	HeartRateSensor: HRS.HeartRateSensor,
